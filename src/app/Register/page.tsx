@@ -1,4 +1,4 @@
-import Login from "../components/Login";
+import SignIn from "./SignIn";
 
 export default function Home() {
   return (
@@ -8,11 +8,11 @@ export default function Home() {
         style={{ minHeight: "inherit" }}>
         <div className="col-8 justify-content-center align-content-center">
           <div className="row text-center">
-            <h1>Home Page</h1>
+            <h1>Register</h1>
           </div>
           <div className="row justify-content-center ">
             <div className="w-75">
-              <Login />
+              <SignIn />
             </div>
           </div>
         </div>
